@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  World Quest Essentials icon: a globe behind a gold exclamation mark.
+  Drawn for this project. Dedicated to the public domain under CC0 1.0:
+  https://creativecommons.org/publicdomain/zero/1.0/
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="ocean" cx="40%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#3f8fd0"/>
+      <stop offset="0.6" stop-color="#1c4f86"/>
+      <stop offset="1" stop-color="#0b2443"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff0a0"/>
+      <stop offset="0.45" stop-color="#f4c542"/>
+      <stop offset="1" stop-color="#b8741a"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffe58a"/>
+      <stop offset="1" stop-color="#a5681a"/>
+    </linearGradient>
+    <clipPath id="globe">
+      <circle cx="256" cy="256" r="216"/>
+    </clipPath>
+  </defs>
+
+  <!-- Globe -->
+  <circle cx="256" cy="256" r="216" fill="url(#ocean)"/>
+  <g clip-path="url(#globe)" fill="none" stroke="#f4d27a" stroke-opacity="0.42" stroke-width="7">
+    <ellipse cx="256" cy="256" rx="72" ry="216"/>
+    <ellipse cx="256" cy="256" rx="150" ry="216"/>
+    <line x1="256" y1="30" x2="256" y2="482"/>
+    <line x1="30" y1="256" x2="482" y2="256"/>
+    <path d="M40 160 Q256 120 472 160"/>
+    <path d="M40 352 Q256 392 472 352"/>
+  </g>
+  <!-- Land, a few soft shapes -->
+  <g clip-path="url(#globe)" fill="#4f9a5a" fill-opacity="0.55">
+    <path d="M70 190 C110 150 170 160 180 200 C190 240 140 250 150 300 C160 340 110 350 85 320 C60 290 40 230 70 190 Z"/>
+    <path d="M330 110 C380 95 430 130 440 180 C450 220 410 230 380 215 C350 200 320 170 330 110 Z"/>
+    <path d="M330 330 C370 310 420 330 410 370 C400 410 350 430 320 400 C300 380 305 345 330 330 Z"/>
+  </g>
+  <circle cx="256" cy="256" r="216" fill="none" stroke="url(#rim)" stroke-width="18"/>
+
+  <!-- Exclamation mark -->
+  <g stroke="#2a1800" stroke-width="12" stroke-linejoin="round" fill="url(#gold)">
+    <path d="M214 96 H298 L280 318 H232 Z"/>
+    <circle cx="256" cy="382" r="40"/>
+  </g>
+  <path d="M232 112 H262 L254 200 H240 Z" fill="#ffffff" fill-opacity="0.45"/>
+</svg>

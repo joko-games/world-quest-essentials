@@ -1,0 +1,16 @@
+## Interface: 120105
+## Title: World Quest Essentials
+## Notes: The complete list of the current expansion's world quests, beside the world map.
+## Notes-frFR: La liste complète des expéditions de l'extension actuelle, à côté de la carte du monde.
+## Author: Primo
+## Version: @project-version@
+## SavedVariables: WorldQuestEssentialsDB
+## IconTexture: Interface\AddOns\WorldQuestEssentials\Media\Icon
+## Category-enUS: Quests
+## Category-frFR: Quêtes
+
+Locales\frFR.lua
+Locales.lua
+Core.lua
+Quests.lua
+UI\Panel.lua
